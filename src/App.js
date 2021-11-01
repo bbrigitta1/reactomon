@@ -4,10 +4,10 @@ import "antd/dist/antd.css";
 import "./index.css";
 import { Layout, Menu } from "antd";
 import { Route, Switch, BrowserRouter, Link } from "react-router-dom";
-import Pokemons from "./components/Pokemons";
-import Types from "./components/Types";
-import PokemonDetails from "./components/PokemonDetails";
-import Home from "./components/Home";
+import Pokemons from "./components/routing/Pokemons";
+import Types from "./components/routing/Types";
+import PokemonDetails from "./components/routing/PokemonDetails";
+import Home from "./components/routing/Home";
 
 const { Header, Content, Footer } = Layout;
 
