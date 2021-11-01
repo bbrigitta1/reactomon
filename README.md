@@ -1,3 +1,9 @@
+# About the project
+
+I made this project during my studies at Codecool.
+This is a single-page application written in React, displaying different information about Pokémons with the help of API requests from PokéAPI (https://pokeapi.co/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
