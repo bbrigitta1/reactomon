@@ -49,7 +49,7 @@ const Pokemons = () => {
         </Button>{" "}
       </div>
 
-      <div className="cards-container">
+      <div className="cards-container" style={cardsContainerStyle}>
         {items.pokemons.map((pokemon) => (
           <div key={pokemon.id}>
             <CardPokemon
@@ -78,5 +78,11 @@ const Pokemons = () => {
     </div>
   );
 };
+
+const cardsContainerStyle = {
+  display: "flex",
+  flexDirection: "row",
+  flexWrap: "wrap",
+}
 
 export default Pokemons;
